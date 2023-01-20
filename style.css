@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,500;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background-color:hsl(210, 46%, 95%) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 26px;
+    color: hsl(217, 19%, 35%);
+}
+h2{
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+
+}
+p{
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.main{
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+}
+.drawers{
+    height: 300px;
+    width: 100%;
+    max-width: 350px;;
+}
+.description{
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+}
+.avatar{
+    display: flex;
+    padding: 10px;
+    
+}
+.michelle{
+    border-radius: 50%;
+    height: 50px;
+}
+.share__symbole{
+    position: relative;
+    margin-left: 200px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:hsl(217, 19%, 35%) ;
+}
+.name{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.share{
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 50px rgb(0, 0, 0, 0.5);
+}
+span{
+    color: hsl(214, 17%, 51%) ;
+    margin-right: 20px;
+}
+.icon{
+   margin-left: 10px;
+   z-index: 1;
+}
+
+.triangle-down {
+    z-index: 0;
+    position: absolute;
+    top: 10px;
+	width: 0px;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid hsl(217, 19%, 35%);
+}
